@@ -1,0 +1,133 @@
+is_global = true
+build_property.TargetFramework = net6.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = FitnessCenterManagement
+build_property.RootNamespace = FitnessCenterManagement
+build_property.ProjectDir = C:\Users\golla\OneDrive\Desktop\DBMS\FitnessCenter\FitnessCenter\FitnessCenterManagement\
+build_property.RazorLangVersion = 6.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = C:\Users\golla\OneDrive\Desktop\DBMS\FitnessCenter\FitnessCenter\FitnessCenterManagement
+build_property._RazorSourceGeneratorDebug = 
+
+[C:/Users/golla/OneDrive/Desktop/DBMS/FitnessCenter/FitnessCenter/FitnessCenterManagement/Views/Attendance/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXR0ZW5kYW5jZVxDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/golla/OneDrive/Desktop/DBMS/FitnessCenter/FitnessCenter/FitnessCenterManagement/Views/Attendance/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXR0ZW5kYW5jZVxEZWxldGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/golla/OneDrive/Desktop/DBMS/FitnessCenter/FitnessCenter/FitnessCenterManagement/Views/Attendance/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXR0ZW5kYW5jZVxEZXRhaWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/golla/OneDrive/Desktop/DBMS/FitnessCenter/FitnessCenter/FitnessCenterManagement/Views/Attendance/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXR0ZW5kYW5jZVxFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/golla/OneDrive/Desktop/DBMS/FitnessCenter/FitnessCenter/FitnessCenterManagement/Views/Attendance/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXR0ZW5kYW5jZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/golla/OneDrive/Desktop/DBMS/FitnessCenter/FitnessCenter/FitnessCenterManagement/Views/Class/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2xhc3NcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/golla/OneDrive/Desktop/DBMS/FitnessCenter/FitnessCenter/FitnessCenterManagement/Views/Class/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2xhc3NcRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/golla/OneDrive/Desktop/DBMS/FitnessCenter/FitnessCenter/FitnessCenterManagement/Views/Class/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2xhc3NcRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/golla/OneDrive/Desktop/DBMS/FitnessCenter/FitnessCenter/FitnessCenterManagement/Views/Class/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2xhc3NcRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/golla/OneDrive/Desktop/DBMS/FitnessCenter/FitnessCenter/FitnessCenterManagement/Views/Class/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2xhc3NcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/golla/OneDrive/Desktop/DBMS/FitnessCenter/FitnessCenter/FitnessCenterManagement/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/golla/OneDrive/Desktop/DBMS/FitnessCenter/FitnessCenter/FitnessCenterManagement/Views/Home/Privacy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/golla/OneDrive/Desktop/DBMS/FitnessCenter/FitnessCenter/FitnessCenterManagement/Views/Member/AttendanceClass.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWVtYmVyXEF0dGVuZGFuY2VDbGFzcy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/golla/OneDrive/Desktop/DBMS/FitnessCenter/FitnessCenter/FitnessCenterManagement/Views/Member/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWVtYmVyXENyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/golla/OneDrive/Desktop/DBMS/FitnessCenter/FitnessCenter/FitnessCenterManagement/Views/Member/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWVtYmVyXERlbGV0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/golla/OneDrive/Desktop/DBMS/FitnessCenter/FitnessCenter/FitnessCenterManagement/Views/Member/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWVtYmVyXERldGFpbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/golla/OneDrive/Desktop/DBMS/FitnessCenter/FitnessCenter/FitnessCenterManagement/Views/Member/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWVtYmVyXEVkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/golla/OneDrive/Desktop/DBMS/FitnessCenter/FitnessCenter/FitnessCenterManagement/Views/Member/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWVtYmVyXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/golla/OneDrive/Desktop/DBMS/FitnessCenter/FitnessCenter/FitnessCenterManagement/Views/Member/MemberAttendance.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWVtYmVyXE1lbWJlckF0dGVuZGFuY2UuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/golla/OneDrive/Desktop/DBMS/FitnessCenter/FitnessCenter/FitnessCenterManagement/Views/Shared/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/golla/OneDrive/Desktop/DBMS/FitnessCenter/FitnessCenter/FitnessCenterManagement/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/golla/OneDrive/Desktop/DBMS/FitnessCenter/FitnessCenter/FitnessCenterManagement/Views/Trainer/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVHJhaW5lclxDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/golla/OneDrive/Desktop/DBMS/FitnessCenter/FitnessCenter/FitnessCenterManagement/Views/Trainer/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVHJhaW5lclxEZWxldGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/golla/OneDrive/Desktop/DBMS/FitnessCenter/FitnessCenter/FitnessCenterManagement/Views/Trainer/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVHJhaW5lclxEZXRhaWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/golla/OneDrive/Desktop/DBMS/FitnessCenter/FitnessCenter/FitnessCenterManagement/Views/Trainer/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVHJhaW5lclxFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/golla/OneDrive/Desktop/DBMS/FitnessCenter/FitnessCenter/FitnessCenterManagement/Views/Trainer/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVHJhaW5lclxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/golla/OneDrive/Desktop/DBMS/FitnessCenter/FitnessCenter/FitnessCenterManagement/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/golla/OneDrive/Desktop/DBMS/FitnessCenter/FitnessCenter/FitnessCenterManagement/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/golla/OneDrive/Desktop/DBMS/FitnessCenter/FitnessCenter/FitnessCenterManagement/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-hy2e8xkv69

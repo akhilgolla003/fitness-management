@@ -1,0 +1,80 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] - FitnessCenterManagement</title>
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/FitnessCenterManagement.styles.css" asp-append-version="true" />
+    <style>
+        /* Custom styling */
+        .navbar {
+            border-bottom: 2px solid #e74c3c; /* Border color for the header */
+        }
+
+        .navbar-brand {
+            color: #e74c3c; /* Attractive color for navbar-brand */
+            font-weight: bold;
+            font-size: 1.5rem;
+        }
+
+        .navbar-nav .nav-item {
+            border: 1px solid #ddd; /* Border color for each li */
+            border-radius: 5px; /* Rounded corners */
+            margin: 2px; /* Adjust spacing */
+        }
+
+        .navbar-nav .nav-link {
+            color: #3498db; /* Attractive color for nav-link */
+            background-color: #f8f9fa; /* Background color for each li */
+            border-bottom: 2px solid transparent;
+            transition: border-bottom-color 0.3s ease-in-out;
+        }
+
+            .navbar-nav .nav-link:hover {
+                color: #e74c3c; /* Change to your preferred hover color */
+                border-bottom-color: #e74c3c; /* Change to your preferred hover color */
+            }
+    </style>
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-light bg-white box-shadow mb-3 navbar-expand-lg">
+            <div class="container-fluid">
+                <a class="navbar-brand" asp-area="" asp-controller="Member" asp-action="Index">World GYM</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target=".navbar-collapse" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="navbar-collapse collapse d-sm-inline-flex justify-content-between">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link" asp-area="" asp-controller="Member" asp-action="Index">Members</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" asp-area="" asp-controller="Trainer" asp-action="Index">Trainers</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" asp-area="" asp-controller="Class" asp-action="Index">Classes</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" asp-area="" asp-controller="Attendance" asp-action="Index">Attendance</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <div class="container">
+        <main role="main" class="pb-3">
+            @RenderBody()
+        </main>
+    </div>
+
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="~/js/site.js" asp-append-version="true"></script>
+    @await RenderSectionAsync("Scripts", required: false)
+</body>
+</html>
