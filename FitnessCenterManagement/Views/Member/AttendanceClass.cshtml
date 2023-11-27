@@ -1,0 +1,60 @@
+﻿@model List<AttendanceClassViewModel>
+
+<style>
+    /* Custom styling for the Member Attendance page */
+    h2 {
+        color: #3498db; /* Heading color */
+    }
+
+    table {
+        width: 100%;
+        border-collapse: collapse;
+        margin-top: 20px;
+    }
+
+    th, td {
+        border: 1px solid #3498db; /* Table cell border color */
+        padding: 10px;
+        text-align: left;
+    }
+
+    th {
+        background-color: #3498db; /* Table header background color */
+        color: #fff; /* Table header text color */
+    }
+
+    tr:nth-child(even) {
+        background-color: #f2f2f2; /* Alternate row background color */
+    }
+
+   
+
+    td {
+        color: #555; /* Table cell text color */
+    }
+</style>
+<h2>Attendance and Classes</h2>
+
+<table>
+    <thead>
+        <tr>
+            <th>Attendance ID</th>
+            <th>Class Name</th>
+            <th>Member Name</th>
+            <th>Attendance Date</th>
+            <th>Status</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>@item.AttendanceID</td>
+                <td>@item.ClassName</td>
+                <td>@item.MemberName</td>
+                <td>@item.AttendanceDate</td>
+                <td>@item.Status</td>
+            </tr>
+        }
+    </tbody>
+</table>
