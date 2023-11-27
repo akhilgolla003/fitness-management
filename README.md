@@ -2,4 +2,5 @@
 fitness management tracker
 
 # GitHub Id's
-akhilgolla003
+1. akhilgolla003
+2 .nadendlagopikrishna
