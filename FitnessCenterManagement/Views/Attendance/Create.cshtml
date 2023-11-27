@@ -1,0 +1,106 @@
+﻿@model FitnessCenterManagement.Models.Attendance
+
+@{
+    ViewData["Title"] = "Create";
+}
+
+<style>
+    /* Custom styling for the Create page with reversed colors for hover and non-hover states */
+    h1, h4 {
+        color: #e74c3c; /* Heading color */
+    }
+
+    hr {
+        border-color: #e74c3c; /* Horizontal rule color */
+    }
+
+    .row {
+        margin: 20px 0;
+    }
+
+    .form-group {
+        margin-bottom: 15px;
+    }
+
+    label {
+        color: #e74c3c; /* Label color */
+        font-weight: bold;
+    }
+
+    .form-control {
+        border: 1px solid #e74c3c; /* Form control border color */
+        border-radius: 4px;
+        width: 100%;
+        padding: 8px;
+        box-sizing: border-box;
+    }
+
+        .form-control:focus {
+            border-color: #3498db; /* Form control border color on focus */
+        }
+
+    .btn-primary {
+        background-color: #e74c3c; /* Primary button background color */
+        color: #fff; /* Primary button text color */
+        border: 1px solid #e74c3c; /* Primary button border color */
+    }
+
+        .btn-primary:hover {
+            background-color: #3498db; /* Primary button background color on hover */
+            border-color: #3498db; /* Primary button border color on hover */
+        }
+
+    .text-danger {
+        color: #3498db; /* Text color for validation messages */
+    }
+
+    a {
+        color: #e74c3c; /* Link color */
+    }
+
+        a:hover {
+            color: #3498db; /* Hover link color */
+        }
+</style>
+
+
+<h4>Add attendance</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="Create">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="form-group">
+                <label asp-for="MemberID" class="control-label">Member ID</label>
+                <input asp-for="MemberID" class="form-control" />
+                <span asp-validation-for="MemberID" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="ClassID" class="control-label">Class ID</label>
+                <input asp-for="ClassID" class="form-control" />
+                <span asp-validation-for="ClassID" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Date" class="control-label">Date </label>
+                <input asp-for="Date" class="form-control" />
+                <span asp-validation-for="Date" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Status" class="control-label">Status</label>
+                <input asp-for="Status" class="form-control" />
+                <span asp-validation-for="Status" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Create" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-action="Index">Back to List</a>
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}

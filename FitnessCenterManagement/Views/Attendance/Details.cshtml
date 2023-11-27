@@ -1,0 +1,83 @@
+﻿@model FitnessCenterManagement.Models.Attendance
+
+@{
+    ViewData["Title"] = "Details";
+}
+
+<style>
+    /* Custom styling for the Details page */
+    h4 {
+        color: #e74c3c; /* Heading color */
+    }
+
+    hr {
+        border-color: #e74c3c; /* Horizontal rule color */
+    }
+
+    .row {
+        margin: 20px 0;
+    }
+
+    dl {
+        margin-bottom: 20px;
+    }
+
+    dt, dd {
+        padding: 8px;
+    }
+
+    dt {
+        font-weight: bold;
+        color: #e74c3c; /* Term color */
+    }
+
+    dd {
+        color: #555; /* Definition color */
+    }
+
+    a {
+        color: #e74c3c; /* Link color */
+        margin-right: 10px;
+    }
+
+        a:hover {
+            color: #3498db; /* Hover link color */
+        }
+</style>
+
+
+<div>
+    <h4>Attendance Details</h4>
+    <hr />
+    <dl class="row">
+        <dt class="col-sm-2">
+            <label for="MemberID">Member ID</label>
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.MemberID)
+        </dd>
+        <dt class="col-sm-2">
+            <label for="ClassID">Class ID</label>
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.ClassID)
+        </dd>
+        <dt class="col-sm-2">
+            <label for="Date">Date</label>
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Date)
+        </dd>
+        <dt class="col-sm-2">
+            <label for="Status">Status</label>
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Status)
+        </dd>
+    </dl>
+
+</div>
+<div>
+    <a asp-action="Edit" asp-route-id="@Model?.AttendanceID">Edit</a> |
+    <a asp-action="Index">Back to List</a>
+</div>

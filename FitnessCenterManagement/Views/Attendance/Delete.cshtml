@@ -1,0 +1,95 @@
+﻿@model FitnessCenterManagement.Models.Attendance
+
+@{
+    ViewData["Title"] = "Delete";
+}
+<style>
+    /* Custom styling for the Delete page */
+    h1, h3, h4 {
+        color: #e74c3c; /* Heading color */
+    }
+
+    hr {
+        border-color: #e74c3c; /* Horizontal rule color */
+    }
+
+    .row {
+        margin: 20px 0;
+    }
+
+    dl {
+        margin-bottom: 20px;
+    }
+
+    dt, dd {
+        padding: 8px;
+    }
+
+    dt {
+        font-weight: bold;
+        color: #e74c3c; /* Term color */
+    }
+
+    dd {
+        color: #555; /* Definition color */
+    }
+
+    .btn-danger {
+        background-color: #e74c3c; /* Delete button background color */
+        color: #fff; /* Delete button text color */
+        border: 1px solid #e74c3c; /* Delete button border color */
+    }
+
+        .btn-danger:hover {
+            background-color: #3498db; /* Delete button background color on hover */
+            color: #fff; /* Delete button text color on hover */
+            border-color: #3498db; /* Delete button border color on hover */
+        }
+
+    a {
+        color: #e74c3c; /* Link color */
+        margin-right: 10px;
+    }
+
+        a:hover {
+            color: #3498db; /* Hover link color */
+        }
+</style>
+
+<h3>Are you sure you want to delete attendance?</h3>
+<div>
+    <hr />
+    <dl class="row">
+        <dt class="col-sm-2">
+            <label for="MemberID">Member ID</label>
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.MemberID)
+        </dd>
+        <dt class="col-sm-2">
+            <label for="ClassID">Class Enrollment ID</label>
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.ClassID)
+        </dd>
+        <dt class="col-sm-2">
+            <label for="Date">Enrollment Date</label>
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Date)
+        </dd>
+        <dt class="col-sm-2">
+            <label for="Status">Enrollment Status</label>
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Status)
+        </dd>
+    </dl>
+
+    
+    <form asp-action="Delete">
+        <input type="hidden" asp-for="AttendanceID" />
+        <input type="submit" value="Delete" class="btn btn-danger" /> |
+        <a asp-action="Index">Back to List</a>
+    </form>
+</div>
