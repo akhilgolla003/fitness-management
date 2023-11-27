@@ -1,0 +1,89 @@
+﻿@model IEnumerable<FitnessCenterManagement.Models.Trainer>
+
+@{
+    ViewData["Title"] = "Index";
+}
+<style>
+    /* Custom styling for the table */
+    table {
+        width: 100%;
+        border-collapse: collapse;
+        margin-top: 20px;
+    }
+
+    th, td {
+        border: 1px solid #ddd;
+        padding: 8px;
+        text-align: left;
+    }
+
+    th {
+        background-color: #3498db; /* Header background color */
+        color: black; /* Header text color */
+    }
+
+    tr:nth-child(even) {
+        background-color: #f8f9fa; /* Even row background color */
+    }
+
+    tr:hover {
+        background-color: #e74c3c; /* Hover row background color */
+        color: #fff; /* Hover row text color */
+    }
+
+    a {
+        color: #3498db; /* Link color */
+        text-decoration: none;
+    }
+
+        a:hover {
+            text-decoration: underline;
+        }
+</style>
+
+<h1>List of Trainers</h1>
+<p>
+    <a asp-action="Create">Add New Trainer</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.TrainerName)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Specialization)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Certification)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.ExperienceYears)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.TrainerName)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Specialization)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Certification)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.ExperienceYears)
+            </td>
+            <td>
+                <a asp-action="Edit" asp-route-id="@item.TrainerID">Edit</a> |
+                <a asp-action="Details" asp-route-id="@item.TrainerID">Details</a> |
+                <a asp-action="Delete" asp-route-id="@item.TrainerID">Delete</a>
+            </td>
+        </tr>
+}
+    </tbody>
+</table>
