@@ -1,3 +1,5 @@
+# Creating Database and Tables
+
 CREATE DATABASE FitnessCenterDB;
 
 
@@ -43,7 +45,7 @@ CREATE TABLE Attendance
 
 
 
-
+# Triggers
 
 
 ----------This trigger enforces a maximum capacity constraint for a class in the `Attendance` table, 
