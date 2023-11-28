@@ -1,5 +1,5 @@
 
--- Insert data into Members table
+## Insert data into Members table
 INSERT INTO Members (FirstName, LastName, MembershipType, ExpirationDate)
 VALUES
     ('John', 'Doe', 'Active', '2023-12-31'),
@@ -14,7 +14,7 @@ VALUES
     ('Emma', 'Moore', 'Active', '2024-05-31');
 
 
--- Insert data into Trainers table
+## Insert data into Trainers table
 INSERT INTO Trainers (TrainerName, Specialization, Certification, ExperienceYears)
 VALUES
     ('Sarah Johnson', 'Yoga', 'Yoga Certification', 5),
@@ -25,7 +25,7 @@ VALUES
 
 
 
--- Insert data into Classes table
+## Insert data into Classes table
 INSERT INTO Classes (ClassName, Schedule, TrainerID, MaxCapacity, RoomNumber)
 VALUES
     ('Yoga Class', '2023-11-20 10:00:00', 1, 15, 101),
@@ -36,7 +36,7 @@ VALUES
 	
 
 
--- Insert data into Attendance table
+## Insert data into Attendance table
 INSERT INTO Attendance (MemberID, ClassID, Date, Status)
 VALUES
     (1, 1, '2023-11-20 10:00:00', 'Present'),  -- John attended Yoga Class
