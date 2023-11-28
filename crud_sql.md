@@ -1,5 +1,5 @@
 # Members Table
--------------------
+
 
 ## Create (Insert) a new member
 INSERT INTO Members (FirstName, LastName, MembershipType, ExpirationDate)
@@ -18,7 +18,7 @@ DELETE FROM Members
 WHERE MemberID = 1;
 
 # Trainers Table
--------------------
+
 
 ## Create (Insert) a new trainer
 INSERT INTO Trainers (TrainerName, Specialization, Certification, ExperienceYears)
@@ -37,7 +37,7 @@ DELETE FROM Trainers
 WHERE TrainerID = 1;
 
 # Classes Table
--------------------
+
 
 ## Create (Insert) a new class
 INSERT INTO Classes (ClassName, Schedule, TrainerID, MaxCapacity, RoomNumber)
@@ -56,7 +56,7 @@ DELETE FROM Classes
 WHERE ClassID = 1;
 
 # Attendance Table
-------------------------
+
 
 ## Create (Insert) attendance record
 INSERT INTO Attendance (MemberID, ClassID, Date, Status)
