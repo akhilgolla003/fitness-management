@@ -53,29 +53,29 @@ AttendanceID -> MemberID, ClassID, Date, Status
 
 
 Members Table:
-No cross-table dependencies.
+  No cross-table dependencies.
 Trainers Table:
-No cross-table dependencies.
+  No cross-table dependencies.
 Classes Table:
-TrainerID (in Classes Table) -> TrainerID (in Trainers Table)
+  TrainerID (in Classes Table) -> TrainerID (in Trainers Table)
 Attendance Table:
-MemberID (in Attendance Table) -> MemberID (in Members Table)
+  MemberID (in Attendance Table) -> MemberID (in Members Table)
 ClassID (in Attendance Table) -> ClassID (in Classes Table)
 
 
 
 # Sample Data
 ## Members Table:
-MemberID: 1, FirstName: John, LastName: Doe, MembershipType: Premium, ExpirationDate: 2023-12-31
-MemberID: 2, FirstName: Jane, LastName: Smith, MembershipType: Standard, ExpirationDate: 2023-11-30
+  MemberID: 1, FirstName: John, LastName: Doe, MembershipType: Premium, ExpirationDate: 2023-12-31
+  MemberID: 2, FirstName: Jane, LastName: Smith, MembershipType: Standard, ExpirationDate: 2023-11-30
 ## Trainers Table:
-TrainerID: 1, TrainerName: Yoga Master, Specialization: Yoga, Certification: Yoga Certification, ExperienceYears: 5
-TrainerID: 2, TrainerName: Fitness Pro, Specialization: Fitness, Certification: Fitness Certification, ExperienceYears: 8
+  TrainerID: 1, TrainerName: Yoga Master, Specialization: Yoga, Certification: Yoga Certification, ExperienceYears: 5
+  TrainerID: 2, TrainerName: Fitness Pro, Specialization: Fitness, Certification: Fitness Certification, ExperienceYears: 8
 ## Classes Table:
-ClassID: 1, ClassName: Yoga Class, Schedule: 2023-11-17 10:00:00, TrainerID: 1, MaxCapacity: 20, RoomNumber: 101
-ClassID: 2, ClassName: Zumba Class, Schedule: 2023-11-18 15:30:00, TrainerID: 2, MaxCapacity: 15, RoomNumber: 102
+  ClassID: 1, ClassName: Yoga Class, Schedule: 2023-11-17 10:00:00, TrainerID: 1, MaxCapacity: 20, RoomNumber: 101
+  ClassID: 2, ClassName: Zumba Class, Schedule: 2023-11-18 15:30:00, TrainerID: 2, MaxCapacity: 15, RoomNumber: 102
 ## Attendance Table:
-AttendanceID: 1, MemberID: 1, ClassID: 1, Date: 2023-11-17 10:00:00, Status: Present
-AttendanceID: 2, MemberID: 2, ClassID: 2, Date: 2023-11-18 15:30:00, Status: Absent
+  AttendanceID: 1, MemberID: 1, ClassID: 1, Date: 2023-11-17 10:00:00, Status: Present
+  AttendanceID: 2, MemberID: 2, ClassID: 2, Date: 2023-11-18 15:30:00, Status: Absent
 
 
