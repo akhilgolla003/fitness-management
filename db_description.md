@@ -1,3 +1,14 @@
+# DataBase Design :
+
+  This is a sample database designed to track the fitness of each members. The database has 4 tables, where each table is in 3NF. Each table has at least 4 fields (including primary keys).
+
+The Database has 4 tables:
+
+  1. Members
+  2. Trainers
+  3. Classes
+  4. Attendance
+
 ## Members Table:
 
 - Attributes: MemberID (Primary Key), FirstName, LastName, MembershipType
