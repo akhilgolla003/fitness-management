@@ -53,29 +53,29 @@ The Database has 4 tables:
 
 # Cross-Table Dependencies in Database Tables
 ### Members Table:
-  No cross-table dependencies.
+  - No cross-table dependencies.
 ### Trainers Table:
-  No cross-table dependencies.
+  - No cross-table dependencies.
 ### Classes Table:
-  TrainerID (in Classes Table) -> TrainerID (in Trainers Table)
+  - TrainerID (in Classes Table) -> TrainerID (in Trainers Table)
 ### Attendance Table:
-  MemberID (in Attendance Table) -> MemberID (in Members Table)
-  ClassID (in Attendance Table) -> ClassID (in Classes Table)
+  - MemberID (in Attendance Table) -> MemberID (in Members Table)
+  - ClassID (in Attendance Table) -> ClassID (in Classes Table)
 
 
 
 # Sample Data
 ## Members Table:
-  1. 1, FirstName: John, LastName: Doe, MembershipType: Premium, ExpirationDate: 2023-12-31
-  2. 2, FirstName: Jane, LastName: Smith, MembershipType: Standard, ExpirationDate: 2023-11-30
+  - 1, FirstName: John, LastName: Doe, MembershipType: Premium, ExpirationDate: 2023-12-31
+  - 2, FirstName: Jane, LastName: Smith, MembershipType: Standard, ExpirationDate: 2023-11-30
 ## Trainers Table:
-  1. 1, TrainerName: Yoga Master, Specialization: Yoga, Certification: Yoga Certification, ExperienceYears: 5
-  2. 2, TrainerName: Fitness Pro, Specialization: Fitness, Certification: Fitness Certification, ExperienceYears: 8
+  - 1, TrainerName: Yoga Master, Specialization: Yoga, Certification: Yoga Certification, ExperienceYears: 5
+  - 2, TrainerName: Fitness Pro, Specialization: Fitness, Certification: Fitness Certification, ExperienceYears: 8
 ## Classes Table:
-  1. 1, ClassName: Yoga Class, Schedule: 2023-11-17 10:00:00, TrainerID: 1, MaxCapacity: 20, RoomNumber: 101
-  2. 2, ClassName: Zumba Class, Schedule: 2023-11-18 15:30:00, TrainerID: 2, MaxCapacity: 15, RoomNumber: 102
+  - 1, ClassName: Yoga Class, Schedule: 2023-11-17 10:00:00, TrainerID: 1, MaxCapacity: 20, RoomNumber: 101
+  - 2, ClassName: Zumba Class, Schedule: 2023-11-18 15:30:00, TrainerID: 2, MaxCapacity: 15, RoomNumber: 102
 ## Attendance Table:
-  1. 1, MemberID: 1, ClassID: 1, Date: 2023-11-17 10:00:00, Status: Present
-  2. 2, MemberID: 2, ClassID: 2, Date: 2023-11-18 15:30:00, Status: Absent
+  - 1, MemberID: 1, ClassID: 1, Date: 2023-11-17 10:00:00, Status: Present
+  - 2, MemberID: 2, ClassID: 2, Date: 2023-11-18 15:30:00, Status: Absent
 
 
