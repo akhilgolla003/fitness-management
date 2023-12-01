@@ -1,7 +1,7 @@
 # fitness-management
 fitness management tracker
 
-# Contributers : 
+## Contributors : 
 1. Akhil Golla - akhilgolla003.
 2. Nadentdla Gopi Krishna - nadendlagopikrishna.
 
