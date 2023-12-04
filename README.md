@@ -32,8 +32,7 @@ The Database has 4 tables:
     2. Trainers
     3. Classes
     4. Attendance
-
-
+    
 # commit Ids and Description
 ## akhilgolla003
     1. 19181fd4f61b9a0cf76aff45c44e510b94eb5bb9 : implemented backend code, designing the database and project structure
