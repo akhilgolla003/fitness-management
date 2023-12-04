@@ -5,6 +5,9 @@ fitness management tracker
 1. Akhil Golla - akhilgolla003.
 2. Nadentdla Gopi Krishna - nadendlagopikrishna.
 
+## Youtube link
+https://www.youtube.com/watch?v=5Tqcpi8IFSk
+
 ## Front-end :
     1. HTML
     2. CSS
