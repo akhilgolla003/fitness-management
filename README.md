@@ -36,7 +36,7 @@ The Database has 4 tables:
 
 # commit Ids and Description
 ## akhilgolla003
-    1. 19181fd4f61b9a0cf76aff45c44e510b94eb5bb9 : implemented backend code and project structure
+    1. 19181fd4f61b9a0cf76aff45c44e510b94eb5bb9 : implemented backend code, designing the database and project structure
     2. 049e5b28f5a3c84df83fda660737ec791615f354 : added controllers and models
     3. 2554a12eb939d7eae81b1962484a82a66af41eb6 : updated Crud_Sql File
     4. fb4cc8730dc86729a312fc1dc2c1745b5385ed53 : updated Db-description file
